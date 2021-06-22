@@ -95,17 +95,17 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to http://52.232.190.155:5601/app/kibana (http://"ELK-Box IP":5601/app/kibana) to check that the installation worked as expected.
 
 ## COMPLETE INSTALL INSTRUCTIONS
--sudo mkdir /etc/ansible/roles
--sudo mkdir /etc/ansible/files
--curl -L -O https://github.com/T-Stringfellow/scripts/blob/0b8e63684c47c12c2a421414c2764be6e33bd81c/Ansible/Ansible-Cfg/ansible.cfg
--sudo mv ansible.cfg /etc/ansible/
--curl -L -O https://github.com/T-Stringfellow/scripts/blob/0b8e63684c47c12c2a421414c2764be6e33bd81c/Ansible/Ansible-Cfg/hosts.yml
--sudo mv hosts.yml /etc/ansible/
--curl -L -O https://github.com/T-Stringfellow/scripts/blob/0b8e63684c47c12c2a421414c2764be6e33bd81c/Ansible/Filebeat/filebeat-config.yml
--sudo mv filebeat-config.yml /etc/ansible/files/
--curl -L -O https://github.com/T-Stringfellow/scripts/blob/0b8e63684c47c12c2a421414c2764be6e33bd81c/Ansible/Metricbeat/metricbeat-config.yml
--sudo mv metric-config.yml /etc/ansible/files/
--curl -L -O https://github.com/T-Stringfellow/scripts/blob/0b8e63684c47c12c2a421414c2764be6e33bd81c/Ansible/complete-deploy_playbook.yml
--sudo mv complete-deploy_playbook.yml /etc/ansible/roles/
--sudo cd /etc/ansible/roles
--sudo ansible-playbook complete-deploy_playbook.yml
+sudo mkdir /etc/ansible/roles
+sudo mkdir /etc/ansible/files
+curl -L -O https://github.com/T-Stringfellow/scripts/blob/0b8e63684c47c12c2a421414c2764be6e33bd81c/Ansible/Ansible-Cfg/ansible.cfg
+sudo mv ansible.cfg /etc/ansible/
+curl -L -O https://github.com/T-Stringfellow/scripts/blob/0b8e63684c47c12c2a421414c2764be6e33bd81c/Ansible/Ansible-Cfg/hosts.yml
+sudo mv hosts.yml /etc/ansible/
+curl -L -O https://github.com/T-Stringfellow/scripts/blob/0b8e63684c47c12c2a421414c2764be6e33bd81c/Ansible/Filebeat/filebeat-config.yml
+sudo mv filebeat-config.yml /etc/ansible/files/
+curl -L -O https://github.com/T-Stringfellow/scripts/blob/0b8e63684c47c12c2a421414c2764be6e33bd81c/Ansible/Metricbeat/metricbeat-config.yml
+sudo mv metric-config.yml /etc/ansible/files/
+curl -L -O https://github.com/T-Stringfellow/scripts/blob/0b8e63684c47c12c2a421414c2764be6e33bd81c/Ansible/complete-deploy_playbook.yml
+sudo mv complete-deploy_playbook.yml /etc/ansible/roles/
+sudo cd /etc/ansible/roles
+sudo ansible-playbook complete-deploy_playbook.yml

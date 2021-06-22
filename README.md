@@ -93,7 +93,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the install-ELK_playbook.yml file to /etc/ansible/roles.
 - Update the /etc/ansible/hosts file to include [webservers] IP addresses for beat installation and [elk] IP addresses for ELK installation.
-- Run the playbook, and navigate to http://52.232.190.155:5601/app/kibana (http://"<ELK-Box IP>":5601/app/kibana) to check that the installation worked as expected.
+- Run the playbook, and navigate to http://52.232.190.155:5601/app/kibana (http://"ELK-Box IP":5601/app/kibana) to check that the installation worked as expected.
 
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._

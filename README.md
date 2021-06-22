@@ -6,12 +6,11 @@ The files in this repository were used to configure the network depicted below.
 
 <img src="https://github.com/T-Stringfellow/scripts/blob/main/Ansible/Images/Red-Team%20(Azure)%20Map_ELK-Red-Team%2BELK(public).png">
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the complete-deploy_playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -71,7 +70,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-(Ansible/Images/docker_ps_output.png)
+<img src="Ansible/Images/docker_ps_output.png">
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -93,7 +92,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the install-ELK_playbook.yml file to /etc/ansible/roles.
 - Update the /etc/ansible/hosts file to include [webservers] IP addresses for beat installation and [elk] IP addresses for ELK installation.
-- Run the playbook, and navigate to http://52.232.190.155:5601/app/kibana (http://<ELK-Box IP>:5601/app/kibana) to check that the installation worked as expected.
+- Run the playbook, and navigate to http://52.232.190.155:5601/app/kibana (http://"ELK-Box IP":5601/app/kibana) to check that the installation worked as expected.
 
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._

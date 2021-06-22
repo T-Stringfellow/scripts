@@ -4,7 +4,7 @@ Linux Scripts and Ansible Scripts from CyberClass (Project 1 - Azure)
 
 The files in this repository were used to configure the network depicted below.
 
-![alt text]https://github.com/T-Stringfellow/scripts/blob/main/Ansible/Images/Red-Team%20(Azure)%20Map_ELK-Red-Team%2BELK(public).png
+![alt text] https://github.com/T-Stringfellow/scripts/blob/main/Ansible/Images/Red-Team%20(Azure)%20Map_ELK-Red-Team%2BELK(public).png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 

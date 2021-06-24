@@ -1,7 +1,7 @@
 # INTRODUCTION
 This repository primarily addresses the development and deployment of an ELK stack monitoring system within an Azure-based Cloud environment.
 - All neccessary scripts and config files are located within the 'Ansible' Directory
-- The 'Linux' directory contains several useful security scripts and an initial setup script to aid in establishing a new Linux-based system.
+- Additionally, the 'Linux' directory contains several useful security scripts and an initial setup script to aid in establishing a new Linux-based system.
 
 Below is a detailed description the ELK stack deployment proccess.
 

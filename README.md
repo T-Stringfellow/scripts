@@ -51,11 +51,11 @@ A summary of the access policies in place can be found in the table below.
 
 | Name                 | Publicly Accessible | Allowed IP Addresses        |
 |----------------------|---------------------|-----------------------------|
-| Jump-Box-Provisioner | Yes                 | <Private IP>               |
+| Jump-Box-Provisioner | Yes                 | "Personal IP"               |
 | Web-1                | No                  | 10.0.0.4                    |
 | Web-2                | No                  | 10.0.0.4                    |
 | Web-3                | No                  | 10.0.0.4                    |
-| ELK-Box              | Yes                 | 10.0.0.4 71.56.219.177:5601 |
+| ELK-Box              | Yes                 | 10.0.0.4 "Personal IP":5601 |
 
 ### Elk Configuration
 
@@ -95,6 +95,8 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to http://52.232.190.155:5601/app/kibana (http://"ELK-Box IP":5601/app/kibana) to check that the installation worked as expected.
 
 ## COMPLETE INSTALL INSTRUCTIONS
+The following commands should be executed, in sequence, from within the ansible container:
+
 - sudo mkdir /etc/ansible/roles
 - sudo mkdir /etc/ansible/files
 - curl -L -O https://github.com/T-Stringfellow/scripts/blob/0b8e63684c47c12c2a421414c2764be6e33bd81c/Ansible/Ansible-Cfg/ansible.cfg

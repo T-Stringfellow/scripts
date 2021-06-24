@@ -1,5 +1,10 @@
-# scripts
-Linux Scripts and Ansible Scripts from CyberClass (Project 1 - Azure)
+# INTRODUCTION
+This repository primarily addresses the development and deployment of an ELK stack monitoring system within an Azure-based Cloud environment.
+- All neccessary scripts and config files are located within the 'Ansible' Directory
+- The 'Linux' directory contains several useful security scripts and an initial setup script to aid in establishing a new Linux-based system.
+
+Below is a detailed description the ELK stack deployment proccess.
+
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.

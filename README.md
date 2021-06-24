@@ -28,7 +28,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+
 
 | Name                 | Function            | IP Address | Operating System   |
 |----------------------|---------------------|------------|--------------------|
@@ -43,7 +43,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump-Box-Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-71.56.219.177
+"Personal IP"
 
 Machines within the network can only be accessed by Jump-Box-Provisioner @ 10.0.0.4.
 
@@ -51,7 +51,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name                 | Publicly Accessible | Allowed IP Addresses        |
 |----------------------|---------------------|-----------------------------|
-| Jump-Box-Provisioner | Yes                 | 71.56.219.177               |
+| Jump-Box-Provisioner | Yes                 | <Private IP>               |
 | Web-1                | No                  | 10.0.0.4                    |
 | Web-2                | No                  | 10.0.0.4                    |
 | Web-3                | No                  | 10.0.0.4                    |
